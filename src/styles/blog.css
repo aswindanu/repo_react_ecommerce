@@ -1,0 +1,44 @@
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: 30px;
+  margin-left: 30px;
+}
+.fav{
+  background-color: blue;
+  color:white;
+}
+
+#text_decor {
+  text-decoration: none
+}
+
+#website{
+  color: black;
+  font-size: 100%;
+  font-weight: 600;
+  text-decoration: none
+}
+
+header {
+  background-image:url("https://coverfiles.alphacoders.com/424/42443.jpg");
+  background-position-y: center;
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-color: rgb(10, 10, 10);
+  position: center;
+  min-height: 110px;
+  background-position-x: center;
+  background-size: 70%;
+}
+
+.back-ground {
+  background-image:url("../images/img/background-home.jpg")
+}
+footer {
+  background-image: url("../images/img/footer.jpg");
+  background-position-y: 70%;
+  background-color: skyblue
+}
